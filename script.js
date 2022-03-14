@@ -74,7 +74,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                         })
                       } else if (result.isDenied) {
                         Swal.fire('Jahat banget emang ga kangen sama pacar sendiri', '', 'error').then(function () {
-                          Swal.fire('Tapi ga apa, Oppa tetep sayang dan kangen sama teteh kok')
+                          Swal.fire('Tapi ga apa, Oppa selalu kangen sama teteh kok')
                         })
                       }
                     })
