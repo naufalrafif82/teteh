@@ -7,7 +7,7 @@ let sender;
 if (url.searchParams.get('by') != null) {
   sender = url.searchParams.get('by');
 } else {
-  sender = "Naufal Rafif";
+  sender = "Nopal";
 }
 
 let footer = document.getElementById("credit");
@@ -74,7 +74,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
                         })
                       } else if (result.isDenied) {
                         Swal.fire('Jahat banget emang ga kangen sama pacar sendiri', '', 'error').then(function () {
-                          Swal.fire('Yaudah deh bye!')
+                          Swal.fire('Tapi ga apa, Oppa tetep sayang dan kangen sama teteh kok')
                         })
                       }
                     })
@@ -83,7 +83,7 @@ document.querySelector(".tombol").addEventListener('click', function () {
               })
             } else if (result.isDenied) {
               Swal.fire(`Yakin ga suka sama ${sender}?`, '', 'error').then(function () {
-                Swal.fire('Yaudah deh bye!')
+                Swal.fire('Teteh, Yang kamu lakukan padaku itu JAHAT!')
               })
             }
           })
